@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: app
-          image: registry.skysolutions.fi/library/project:latest@sha256:54f107e0dbb02867c4f2c5d221d465e059881b8b96b156b1a7fde701c06da5e6
+          image: registry.skysolutions.fi/library/project:latest@sha256:306ff862e10aced234f4decd5859d2157b480439b44142202d36afd8c5a6af91
