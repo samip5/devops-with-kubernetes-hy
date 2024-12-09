@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: project
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: project
+  template:
+    metadata:
+      labels:
+        app: project
+    spec:
+      containers:
+        - name: app
+          image: registry.skysolutions.fi/library/project:latest@sha256:54f107e0dbb02867c4f2c5d221d465e059881b8b96b156b1a7fde701c06da5e6
