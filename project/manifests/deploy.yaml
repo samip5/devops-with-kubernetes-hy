@@ -22,7 +22,7 @@ metadata:
   name: project-svc
   namespace: default
 spec:
-  type: NodePort
+  type: LoadBalancer # No support for NodePort in my on-prem Talos cluster
   selector:
     app: project
   ports:
