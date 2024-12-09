@@ -2,6 +2,7 @@
 .DS_Store
 Thumbs.db
 venv/
+target/
 # k8s
 kubeconfig
 # vscode-sops
